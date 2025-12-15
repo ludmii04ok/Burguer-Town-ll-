@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <!-- Logo -->
+            <div class="logo">
+                <img src="/images/logo.png" alt="Logo del proyecto" width="100px">
+            </div>
+
+            <!-- Checkbox para abrir/cerrar el menú (sin JS) -->
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">
+                <img src="/images/menu.png" alt="Abrir menú">
+            </label>
+
+            <!-- Lista del menú -->
+            <ul class="menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#informacion">informacion</a></li>
+                <li><a href="#productos">productos</a></li>
+                <li><a href="#contacto">contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <div class="iniciotxt">
+                <h1>burguer town</h1>
+            </div>
+            <div class="iniciop">
+                <p>Donde las reglas las pone el sabor.
+                Hamburguesas grandes, pan suave, ingredientes reales y actitud en cada receta.
+                No somos fast food, somos real food.</p>
+            </div>
+        </section>
+
+        <section id="informacion">
+            <h2>sobre nosotros</h2>
+            <div class="contenedor-parrafo">
+                <p>En Burguer Town nos apasiona la creación de hamburguesas únicas que combinan sabor, frescura y calidad. Desde nuestra apertura, nuestro objetivo ha sido ofrecer una experiencia gastronómica inolvidable, cuidando cada detalle: desde la selección de la mejor carne y los ingredientes más frescos, hasta la elaboración de nuestras salsas y recetas especiales que nos distinguen.</p>
+                <p>Somos un equipo comprometido con la excelencia, y nos enorgullece ver a nuestros clientes disfrutar cada bocado, compartiendo momentos y buenos sabores. Cada hamburguesa que servimos refleja nuestra pasión por la comida y nuestro compromiso de brindar productos deliciosos, creativos y auténticos.</p>
+                <p>En Burguer Town creemos que una hamburguesa es más que comida: es una experiencia, un gusto que se disfruta, y un motivo para volver</p>
+            </div>
+            <div class="contenedor-ftinformacion">
+                <img src="/images/hbnosotros.png" alt="">
+            </div>
+        </section>
+
+        <section id="productos">
+            <h2 class="txtseccion">Nuestras delicias</h2>
+            <div class="prod-container">
+                <div class="tarjeta">
+                    <div class="item-hb1">
+                        Doble Carne Suprema
+                    </div>
+                    <div class="item-img">
+                        <img src="/images/hbinicio.png" alt="">
+                    </div>
+                    <div class="datos">
+                        <span class="precio">$20.000</span>
+                        <div class="descripcion"> 
+                            Jugosa doble carne de res, queso cheddar, lechuga fresca y salsa especial de la casa.
+                        </div>
+                        <div class="botton">
+                            <h2 class="botton-content">agregar</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tarjeta">
+                    <div class="item-hb2">
+                        Golden Burger
+                    </div>
+                    <div class="item-img">
+                        <img src="/images/hbinicio.png" alt="">
+                    </div>
+                    <div class="datos">
+                        <span class="precio">$20.000</span>
+                        <div class="descripcion"> 
+                            Carne premium, queso fundido, tomate, cebolla caramelizada y toque de mostaza miel.
+                        </div>
+                        <div class="botton">
+                            <h2 class="botton-content">agregar</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tarjeta">
+                    <div class="item-hb3">
+                        La BBQ Deluxe
+                    </div>
+                    <div class="item-img">
+                        <img src="/images/hbinicio.png" alt="">
+                    </div>
+                    <div class="datos">
+                        <span class="precio">$20.000</span>
+                        <div class="descripcion"> 
+                            Carne a la parrilla, bacon crocante, queso cheddar y nuestra irresistible salsa barbacoa.
+                        </div>
+                        <div class="botton">
+                            <h2 class="botton-content">agregar</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tarjeta">
+                    <div class="item-hb4">
+                        Hawaiana Explosiva
+                    </div>
+                    <div class="item-img">
+                        <img src="/images/hbinicio.png" alt="">
+                    </div>
+                    <div class="datos">
+                        <span class="precio">$20.000</span>
+                        <div class="descripcion"> 
+                            Carne, piña a la plancha, jamón y queso fundido, un combo dulce y salado perfecto.
+                        </div>
+                        <div class="botton">
+                            <h2 class="botton-content">agregar</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tarjeta">
+                    <div class="item-hb5">
+                        La Montaña de Bacon
+                    </div>
+                    <div class="item-img">
+                        <img src="/images/hbinicio.png" alt="">
+                    </div>
+                    <div class="datos">
+                        <span class="precio">$20.000</span>
+                        <div class="descripcion"> 
+                            Doble bacon crujiente, carne jugosa, queso cheddar y salsa especial, para los amantes del bacon.
+                        </div>
+                        <div class="botton">
+                            <h2 class="botton-content">agregar</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tarjeta">
+                    <div class="item-hb6">
+                        Triple Queso Loco
+                    </div>
+                    <div class="item-img">
+                        <img src="/images/hbinicio.png" alt="">
+                    </div>
+                    <div class="datos">
+                        <span class="precio">$20.000</span>
+                        <div class="descripcion"> 
+                            Tres quesos fundidos sobre carne jugosa, con un toque de salsa loca.
+                        </div>
+                        <div class="botton">
+                            <h2 class="botton-content">agregar</h2>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section id="contacto">
+            <div class="footer-container">
+
+                <!-- Sección 1: Mapa -->
+                <div class="footer-section">
+                    <h3>Ubicación</h3>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.011300354651!2d-58.41356462557478!3d-34.60387575750424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca8c854bd13f%3A0xfc0cf5c054da4aa1!2sAbasto%20Shopping!5e0!3m2!1ses!2sar!4v1761169377368!5m2!1ses!2sar"  width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+                <!-- Sección 2: Links -->
+                <div class="footer-section">
+                    <h3>Enlaces</h3>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#informacion">informacion</a></li>
+                        <li><a href="#productos">productos</a></li>
+                    </ul>
+                </div>
+
+                <!-- Sección 3: Contacto -->
+                <div class="footer-section contacto">
+                    <h3>Contacto</h3>
+                    <p><strong>Email:</strong> <a href="mailto:admin@misitio.com">medinaludmila519@gmail.com</a></p>
+                    <p><strong>Teléfono:</strong> +54 11 5694-1250</p>
+                    <div class="redes">
+                        <h4>Redes Sociales</h4>
+                        <a href="https://www.instagram.com/ludmii_04ok/"><img src="/images/instagram.png" alt="Logo de instagram" width="10%" height="auto"></a> 
+                        <a href="https://www.facebook.com/ludmila.medina.186"><img src="/images/facebook.png" alt="Logo de instagram" width="10%" height="auto"></a> 
+                    </div>
+
+                    <div class="legales">
+                        <p>© 2025 MiSitioWeb. Todos los derechos reservados.</p>
+                        <p>
+                            <a href="/aviso-legal.html">Aviso Legal</a> |
+                            <a href="/politica-privacidad.html">Política de Privacidad</a>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
+
+
