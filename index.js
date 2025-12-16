@@ -61,9 +61,10 @@ btnIngresar.addEventListener('click', function (event) {
     event.preventDefault();
 
     if (validarForm()) {
-    window.location.href = "pages/bienvenida.html";
+    window.location.href = "./pages/bienvenida.html";
 }
 });
+
 
 
 
